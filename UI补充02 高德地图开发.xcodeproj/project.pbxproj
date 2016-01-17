@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B922891C4BAC480057220D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B922881C4BAC480057220D /* main.m */; };
+		B9B9228C1C4BAC480057220D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9228B1C4BAC480057220D /* AppDelegate.m */; };
+		B9B9228F1C4BAC480057220D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B9228E1C4BAC480057220D /* ViewController.m */; };
+		B9B922921C4BAC480057220D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B922901C4BAC480057220D /* Main.storyboard */; };
+		B9B922941C4BAC480057220D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B922931C4BAC480057220D /* Assets.xcassets */; };
+		B9B922971C4BAC480057220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B922951C4BAC480057220D /* LaunchScreen.storyboard */; };
+		B9B922A21C4BAC480057220D /* UI__02_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B922A11C4BAC480057220D /* UI__02_______Tests.m */; };
+		B9B922AD1C4BAC480057220D /* UI__02_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B922AC1C4BAC480057220D /* UI__02_______UITests.m */; };
+		B9B922BF1C4BB33D0057220D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922BE1C4BB33C0057220D /* UIKit.framework */; };
+		B9B922C21C4BB3520057220D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922C01C4BB3520057220D /* CoreFoundation.framework */; };
+		B9B922C31C4BB3520057220D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922C11C4BB3520057220D /* Foundation.framework */; };
+		B9B922C51C4BB3630057220D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922C41C4BB3630057220D /* CoreGraphics.framework */; };
+		B9B922C71C4BB3730057220D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922C61C4BB3730057220D /* QuartzCore.framework */; };
+		B9B922C91C4BB3850057220D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922C81C4BB3850057220D /* CoreLocation.framework */; };
+		B9B922CB1C4BB3900057220D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922CA1C4BB3900057220D /* CoreTelephony.framework */; };
+		B9B922CD1C4BB39B0057220D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922CC1C4BB39B0057220D /* SystemConfiguration.framework */; };
+		B9B922CF1C4BB3A80057220D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922CE1C4BB3A80057220D /* libz.tbd */; };
+		B9B922D11C4BB3B90057220D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922D01C4BB3B90057220D /* libstdc++.6.0.9.tbd */; };
+		B9B922D31C4BB3C40057220D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922D21C4BB3C40057220D /* libc++.tbd */; };
+		B9B922D51C4BBB7F0057220D /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922D41C4BBB7F0057220D /* AMapSearchKit.framework */; };
+		B9B922D91C4BC7230057220D /* AMapNavi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9B922D81C4BC7230057220D /* AMapNavi.bundle */; };
+		B9B922DB1C4BC7570057220D /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922DA1C4BC7570057220D /* AMapNaviKit.framework */; };
+		B9B922DD1C4BC81F0057220D /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9B922DC1C4BC81F0057220D /* AMap.bundle */; };
+		B9B922DF1C4BC8DA0057220D /* AMapNaviKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B922DE1C4BC8DA0057220D /* AMapNaviKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9B9229E1C4BAC480057220D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B9227C1C4BAC480057220D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B922831C4BAC480057220D;
+			remoteInfo = "UI补充02 高德地图开发";
+		};
+		B9B922A91C4BAC480057220D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B9227C1C4BAC480057220D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B922831C4BAC480057220D;
+			remoteInfo = "UI补充02 高德地图开发";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9B922841C4BAC480057220D /* UI补充02 高德地图开发.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI补充02 高德地图开发.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B922881C4BAC480057220D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9B9228A1C4BAC480057220D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9B9228B1C4BAC480057220D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9B9228D1C4BAC480057220D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9B9228E1C4BAC480057220D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9B922911C4BAC480057220D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9B922931C4BAC480057220D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9B922961C4BAC480057220D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9B922981C4BAC480057220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B9229D1C4BAC480057220D /* UI补充02 高德地图开发Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI补充02 高德地图开发Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B922A11C4BAC480057220D /* UI__02_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI__02_______Tests.m"; sourceTree = "<group>"; };
+		B9B922A31C4BAC480057220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B922A81C4BAC480057220D /* UI补充02 高德地图开发UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI补充02 高德地图开发UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B922AC1C4BAC480057220D /* UI__02_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI__02_______UITests.m"; sourceTree = "<group>"; };
+		B9B922AE1C4BAC480057220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B922BE1C4BB33C0057220D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9B922C01C4BB3520057220D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B9B922C11C4BB3520057220D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9B922C41C4BB3630057220D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9B922C61C4BB3730057220D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B9B922C81C4BB3850057220D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B9B922CA1C4BB3900057220D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B9B922CC1C4BB39B0057220D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B9B922CE1C4BB3A80057220D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B9B922D01C4BB3B90057220D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		B9B922D21C4BB3C40057220D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B9B922D41C4BBB7F0057220D /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
+		B9B922D81C4BC7230057220D /* AMapNavi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMapNavi.bundle; sourceTree = "<group>"; };
+		B9B922DA1C4BC7570057220D /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
+		B9B922DC1C4BC81F0057220D /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		B9B922DE1C4BC8DA0057220D /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapNaviKit.framework; path = "../../高德地图SDK/AMapNaviKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B922811C4BAC480057220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B922DF1C4BC8DA0057220D /* AMapNaviKit.framework in Frameworks */,
+				B9B922D31C4BB3C40057220D /* libc++.tbd in Frameworks */,
+				B9B922D11C4BB3B90057220D /* libstdc++.6.0.9.tbd in Frameworks */,
+				B9B922CF1C4BB3A80057220D /* libz.tbd in Frameworks */,
+				B9B922DB1C4BC7570057220D /* AMapNaviKit.framework in Frameworks */,
+				B9B922CD1C4BB39B0057220D /* SystemConfiguration.framework in Frameworks */,
+				B9B922CB1C4BB3900057220D /* CoreTelephony.framework in Frameworks */,
+				B9B922C91C4BB3850057220D /* CoreLocation.framework in Frameworks */,
+				B9B922C71C4BB3730057220D /* QuartzCore.framework in Frameworks */,
+				B9B922D51C4BBB7F0057220D /* AMapSearchKit.framework in Frameworks */,
+				B9B922C51C4BB3630057220D /* CoreGraphics.framework in Frameworks */,
+				B9B922C21C4BB3520057220D /* CoreFoundation.framework in Frameworks */,
+				B9B922C31C4BB3520057220D /* Foundation.framework in Frameworks */,
+				B9B922BF1C4BB33D0057220D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B9229A1C4BAC480057220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B922A51C4BAC480057220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B9227B1C4BAC480057220D = {
+			isa = PBXGroup;
+			children = (
+				B9B922DE1C4BC8DA0057220D /* AMapNaviKit.framework */,
+				B9B922DC1C4BC81F0057220D /* AMap.bundle */,
+				B9B922D81C4BC7230057220D /* AMapNavi.bundle */,
+				B9B922D21C4BB3C40057220D /* libc++.tbd */,
+				B9B922D01C4BB3B90057220D /* libstdc++.6.0.9.tbd */,
+				B9B922CE1C4BB3A80057220D /* libz.tbd */,
+				B9B922CC1C4BB39B0057220D /* SystemConfiguration.framework */,
+				B9B922CA1C4BB3900057220D /* CoreTelephony.framework */,
+				B9B922C81C4BB3850057220D /* CoreLocation.framework */,
+				B9B922C61C4BB3730057220D /* QuartzCore.framework */,
+				B9B922C41C4BB3630057220D /* CoreGraphics.framework */,
+				B9B922C01C4BB3520057220D /* CoreFoundation.framework */,
+				B9B922C11C4BB3520057220D /* Foundation.framework */,
+				B9B922BE1C4BB33C0057220D /* UIKit.framework */,
+				B9B922861C4BAC480057220D /* UI补充02 高德地图开发 */,
+				B9B922A01C4BAC480057220D /* UI补充02 高德地图开发Tests */,
+				B9B922AB1C4BAC480057220D /* UI补充02 高德地图开发UITests */,
+				B9B922851C4BAC480057220D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B922851C4BAC480057220D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B922841C4BAC480057220D /* UI补充02 高德地图开发.app */,
+				B9B9229D1C4BAC480057220D /* UI补充02 高德地图开发Tests.xctest */,
+				B9B922A81C4BAC480057220D /* UI补充02 高德地图开发UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B922861C4BAC480057220D /* UI补充02 高德地图开发 */ = {
+			isa = PBXGroup;
+			children = (
+				B9B9228A1C4BAC480057220D /* AppDelegate.h */,
+				B9B9228B1C4BAC480057220D /* AppDelegate.m */,
+				B9B9228D1C4BAC480057220D /* ViewController.h */,
+				B9B9228E1C4BAC480057220D /* ViewController.m */,
+				B9B922901C4BAC480057220D /* Main.storyboard */,
+				B9B922931C4BAC480057220D /* Assets.xcassets */,
+				B9B922951C4BAC480057220D /* LaunchScreen.storyboard */,
+				B9B922981C4BAC480057220D /* Info.plist */,
+				B9B922871C4BAC480057220D /* Supporting Files */,
+			);
+			path = "UI补充02 高德地图开发";
+			sourceTree = "<group>";
+		};
+		B9B922871C4BAC480057220D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B922DA1C4BC7570057220D /* AMapNaviKit.framework */,
+				B9B922D41C4BBB7F0057220D /* AMapSearchKit.framework */,
+				B9B922881C4BAC480057220D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9B922A01C4BAC480057220D /* UI补充02 高德地图开发Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B922A11C4BAC480057220D /* UI__02_______Tests.m */,
+				B9B922A31C4BAC480057220D /* Info.plist */,
+			);
+			path = "UI补充02 高德地图开发Tests";
+			sourceTree = "<group>";
+		};
+		B9B922AB1C4BAC480057220D /* UI补充02 高德地图开发UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B922AC1C4BAC480057220D /* UI__02_______UITests.m */,
+				B9B922AE1C4BAC480057220D /* Info.plist */,
+			);
+			path = "UI补充02 高德地图开发UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B922831C4BAC480057220D /* UI补充02 高德地图开发 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B922B11C4BAC480057220D /* Build configuration list for PBXNativeTarget "UI补充02 高德地图开发" */;
+			buildPhases = (
+				B9B922801C4BAC480057220D /* Sources */,
+				B9B922811C4BAC480057220D /* Frameworks */,
+				B9B922821C4BAC480057220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI补充02 高德地图开发";
+			productName = "UI补充02 高德地图开发";
+			productReference = B9B922841C4BAC480057220D /* UI补充02 高德地图开发.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9B9229C1C4BAC480057220D /* UI补充02 高德地图开发Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B922B41C4BAC480057220D /* Build configuration list for PBXNativeTarget "UI补充02 高德地图开发Tests" */;
+			buildPhases = (
+				B9B922991C4BAC480057220D /* Sources */,
+				B9B9229A1C4BAC480057220D /* Frameworks */,
+				B9B9229B1C4BAC480057220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B9229F1C4BAC480057220D /* PBXTargetDependency */,
+			);
+			name = "UI补充02 高德地图开发Tests";
+			productName = "UI补充02 高德地图开发Tests";
+			productReference = B9B9229D1C4BAC480057220D /* UI补充02 高德地图开发Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9B922A71C4BAC480057220D /* UI补充02 高德地图开发UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B922B71C4BAC480057220D /* Build configuration list for PBXNativeTarget "UI补充02 高德地图开发UITests" */;
+			buildPhases = (
+				B9B922A41C4BAC480057220D /* Sources */,
+				B9B922A51C4BAC480057220D /* Frameworks */,
+				B9B922A61C4BAC480057220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B922AA1C4BAC480057220D /* PBXTargetDependency */,
+			);
+			name = "UI补充02 高德地图开发UITests";
+			productName = "UI补充02 高德地图开发UITests";
+			productReference = B9B922A81C4BAC480057220D /* UI补充02 高德地图开发UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B9227C1C4BAC480057220D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "曾思健";
+				TargetAttributes = {
+					B9B922831C4BAC480057220D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B9B9229C1C4BAC480057220D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B9B922831C4BAC480057220D;
+					};
+					B9B922A71C4BAC480057220D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B9B922831C4BAC480057220D;
+					};
+				};
+			};
+			buildConfigurationList = B9B9227F1C4BAC480057220D /* Build configuration list for PBXProject "UI补充02 高德地图开发" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9B9227B1C4BAC480057220D;
+			productRefGroup = B9B922851C4BAC480057220D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B922831C4BAC480057220D /* UI补充02 高德地图开发 */,
+				B9B9229C1C4BAC480057220D /* UI补充02 高德地图开发Tests */,
+				B9B922A71C4BAC480057220D /* UI补充02 高德地图开发UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B922821C4BAC480057220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B922DD1C4BC81F0057220D /* AMap.bundle in Resources */,
+				B9B922D91C4BC7230057220D /* AMapNavi.bundle in Resources */,
+				B9B922971C4BAC480057220D /* LaunchScreen.storyboard in Resources */,
+				B9B922941C4BAC480057220D /* Assets.xcassets in Resources */,
+				B9B922921C4BAC480057220D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B9229B1C4BAC480057220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B922A61C4BAC480057220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B922801C4BAC480057220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B9228F1C4BAC480057220D /* ViewController.m in Sources */,
+				B9B9228C1C4BAC480057220D /* AppDelegate.m in Sources */,
+				B9B922891C4BAC480057220D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B922991C4BAC480057220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B922A21C4BAC480057220D /* UI__02_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B922A41C4BAC480057220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B922AD1C4BAC480057220D /* UI__02_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9B9229F1C4BAC480057220D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B922831C4BAC480057220D /* UI补充02 高德地图开发 */;
+			targetProxy = B9B9229E1C4BAC480057220D /* PBXContainerItemProxy */;
+		};
+		B9B922AA1C4BAC480057220D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B922831C4BAC480057220D /* UI补充02 高德地图开发 */;
+			targetProxy = B9B922A91C4BAC480057220D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9B922901C4BAC480057220D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B922911C4BAC480057220D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9B922951C4BAC480057220D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B922961C4BAC480057220D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9B922AF1C4BAC480057220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9B922B01C4BAC480057220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B922B21C4BAC480057220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UI补充02",
+					"高德地图开发",
+				);
+				INFOPLIST_FILE = "UI补充02 高德地图开发/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itcast.UI--02-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9B922B31C4BAC480057220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UI补充02",
+					"高德地图开发",
+				);
+				INFOPLIST_FILE = "UI补充02 高德地图开发/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itcast.UI--02-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9B922B51C4BAC480057220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI补充02 高德地图开发Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itcast.UI--02-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI补充02 高德地图开发.app/UI补充02 高德地图开发";
+			};
+			name = Debug;
+		};
+		B9B922B61C4BAC480057220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI补充02 高德地图开发Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itcast.UI--02-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI补充02 高德地图开发.app/UI补充02 高德地图开发";
+			};
+			name = Release;
+		};
+		B9B922B81C4BAC480057220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI补充02 高德地图开发UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itcast.UI--02-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI补充02 高德地图开发";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B9B922B91C4BAC480057220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI补充02 高德地图开发UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itcast.UI--02-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI补充02 高德地图开发";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B9227F1C4BAC480057220D /* Build configuration list for PBXProject "UI补充02 高德地图开发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B922AF1C4BAC480057220D /* Debug */,
+				B9B922B01C4BAC480057220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B922B11C4BAC480057220D /* Build configuration list for PBXNativeTarget "UI补充02 高德地图开发" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B922B21C4BAC480057220D /* Debug */,
+				B9B922B31C4BAC480057220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9B922B41C4BAC480057220D /* Build configuration list for PBXNativeTarget "UI补充02 高德地图开发Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B922B51C4BAC480057220D /* Debug */,
+				B9B922B61C4BAC480057220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9B922B71C4BAC480057220D /* Build configuration list for PBXNativeTarget "UI补充02 高德地图开发UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B922B81C4BAC480057220D /* Debug */,
+				B9B922B91C4BAC480057220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B9227C1C4BAC480057220D /* Project object */;
+}
